@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .pagetop, .footer {
     background-color: #1f2937;
     color: #f9faf8;
@@ -6,12 +10,16 @@
     padding:10px;
     border:0px;
 }
+.pagetop {
+    height: 600px;
+}
 
 .header {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
+    margin-left: 35px;
+    margin-right: 35px;
 }
 .headerlogo {
     font-size: 24px;
@@ -24,7 +32,27 @@ ul {
     gap: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.herocontainer {
+    max-width: 500px;
+}
 
+button {
+    background-color:#3882F9;
+    color:#E5E7EB;
+    font-size: 18px;
+    border-radius: 2em;
+    padding: 12px 28px;
+    border:none;
+}
+.cardcontainer {
+    display:Flex;
+}
 .testimonialcontainer {
     background-color: #E5E7EB;
 }
